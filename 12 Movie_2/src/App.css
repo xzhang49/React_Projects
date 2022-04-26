@@ -1,0 +1,16 @@
+.my-list {
+  display: inline-flex;
+}
+
+.hover-div {
+  margin:30px;
+  padding-bottom: 20px;
+}
+
+.list-item-button {
+  display: none;
+}
+
+.hover-div:hover .list-item-button {
+  display: block;
+}
